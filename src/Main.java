@@ -8,7 +8,7 @@ public class Main {
         int price = 13_745;
 
         int miles = service.calculate(price);
-        
+
         System.out.println("Стоимость билета: " + price + " рублей");
         System.out.println("Начислено бонусных миль: " + miles);
     }
